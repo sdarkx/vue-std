@@ -1,15 +1,17 @@
 <template>
     <div>
-        <ParentVue />
+        <!-- <ParentVue /> -->
+        <EventVue />
     </div>
 </template>
 
 <script>
-import ParentVue from './components/ParentVue.vue'
+import EventVue from './components/event/EventVue.vue'
+// import ParentVue from './components/ParentVue.vue'
 
 export default {
     components: {
-        ParentVue,
+        EventVue,
     }
 }
 </script>
